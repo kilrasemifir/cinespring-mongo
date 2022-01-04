@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.2](https://github.com/kilrasemifir/cinespring-mongo/compare/v0.1.1...v0.1.2) (2022-01-04)
+
+
+### Features
+
+* ajout des awards et des seances ([215d1b4](https://github.com/kilrasemifir/cinespring-mongo/commit/215d1b4fb66c3157c6e817147cf5f7995d4a9018))
+
 ### [0.1.1](///compare/v0.1.0...v0.1.1) (2022-01-04)
 
 
