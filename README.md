@@ -22,7 +22,11 @@ mvnw spring-boot:run
 
 3. Dans postman, Ajouter des acteurs, seances et des films grace aux APIs REST sur le port 8080.
 
+Vous pouvez voir les routes disponible avec sur la route:
+[Swagger-ui](http://localhost:8080/swagger-ui.html)
+
 4. Vous pouvez utiliser Kibana pour la visualisation des données sauvegarder dans elasticsearch avec le port 5601.
+
 
 ## Documentation Utiles:
 * Documentation de springBoot starter Data Mongo: [Baeldung Mongo](https://www.baeldung.com/spring-data-mongodb-tutorial)
