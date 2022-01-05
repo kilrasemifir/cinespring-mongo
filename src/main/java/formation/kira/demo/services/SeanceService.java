@@ -1,20 +1,22 @@
 package formation.kira.demo.services;
 
 import formation.kira.demo.models.Seance;
-import formation.kira.demo.repositories.SeanceRepository;
+import formation.kira.demo.repositories.mongo.SeanceMongoRepository;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
-import java.util.Optional;
 
+/**
+ * Service pour la gestion des Seances de film.
+ */
 @Service
 public class SeanceService {
 
-    private SeanceRepository repository;
+    private SeanceMongoRepository repository;
 
-    public SeanceService(SeanceRepository repository) {
+    public SeanceService(SeanceMongoRepository repository) {
         this.repository = repository;
     }
 

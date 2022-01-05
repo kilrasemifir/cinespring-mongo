@@ -1,5 +1,6 @@
 package formation.kira.demo.controllers;
 
+import formation.kira.demo.models.Award;
 import formation.kira.demo.models.Film;
 import formation.kira.demo.services.FilmService;
 import org.springframework.web.bind.annotation.*;
@@ -40,5 +41,15 @@ public class FilmController {
     @DeleteMapping("{id}")
     public void deleteById(@PathVariable String id) {
         service.deleteById(id);
+    }
+
+    @GetMapping("awards")
+    public List<Award> findAllAward() {
+        return service.findAllAward();
+    }
+
+    @GetMapping("search/{keyword}")
+    public Iterable<Film> search(@PathVariable String keyword){
+        return this.service.search(keyword);
     }
 }
